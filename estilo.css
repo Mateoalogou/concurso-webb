@@ -1,0 +1,89 @@
+/* estilo*/
+body {
+    background-color: rgba(147, 227, 241, 0.541);
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+div.linea {
+    flex-direction: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div {
+    width: auto;
+    height: auto;
+    text-align;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+div img {
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+/* nav*/
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.menu li {
+    padding: 10px 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
